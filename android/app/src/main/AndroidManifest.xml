@@ -1,1 +1,5 @@
-<manifest xmlns:android='http://schemas.android.com/apk/res/android' package='com.ariza.big'></manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ariza.takip">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application android:label="Arıza Takip" android:icon="@mipmap/ic_launcher"/>
+</manifest>
