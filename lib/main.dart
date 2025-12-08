@@ -82,7 +82,7 @@ class _UserFormPageState extends State<UserFormPage> {
         '#ff6666', 'İptal', true, ScanMode.QR);
       if (qr != '-1') setState(() => serialCtrl.text = qr);
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('QR tarama başlatılamadı')));
+      if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('QR tarama başlatılamadı')));
     }
   }
 
@@ -120,7 +120,7 @@ class _UserFormPageState extends State<UserFormPage> {
 
     setState(() => _saving = false);
 
-    ScaffoldMessenger.of(context).showSnackBar(
+    if (mounted) ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text("Kayıt oluşturuldu"))
     );
 
