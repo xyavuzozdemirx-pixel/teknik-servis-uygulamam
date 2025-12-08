@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746448118892",
+    "project_id": "arizatakip-8b3ef",
+    "storage_bucket": "arizatakip-8b3ef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746448118892:android:d01cbd1ccc68de80626449",
+        "android_client_info": {
+          "package_name": "com.ariza.takip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFy3mj6EfCqj-ighasNeKbzH1eulg7sM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
